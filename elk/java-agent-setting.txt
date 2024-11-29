@@ -1,0 +1,7 @@
+java -jar apm-agent-attach-cli.jar \
+    --exclude-user root \
+    --include-main DemoApplication demo-0.0.1-SNAPSHOT.jar \
+    --include-vmarg elastic.apm.attach=true \
+    --continuous \
+    --config service_name=my-cool-service \
+    --config server_url=http://127.0.0.1:8200
