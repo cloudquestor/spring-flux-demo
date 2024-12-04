@@ -7,7 +7,7 @@ target/
 ### log and downlaod files ###
 
 *.log
-downloads/
+downloads/*.jar
 
 ### STS ###
 .apt_generated
