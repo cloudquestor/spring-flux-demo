@@ -26,7 +26,7 @@ public class UserController {
 
 	@GetMapping("/{userId}")
 	public Mono<String> getUser(@PathVariable Long userId) {
-        logger.info("GET /users/"+userId);
+        logger.info("GET /users/" + userId);
 		return userService.getUser(userId);
 	}
 
